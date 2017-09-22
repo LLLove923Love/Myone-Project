@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>快租365_一站式电脑租赁和IT服务电商</title>
+		<link rel="shortcut icon" type= "image/x.icon" href="../img/logo/favicon.ico"/>
+		<!--查一下keywords-->
+		<meta name="keywords" content="电脑租赁,电脑出租,租电脑,租笔记本,快租365,免押金租赁,企业租赁电脑,出租办公电脑,IBM笔记本租赁,IBM电脑租赁,租苹果电脑,服务器租赁,高配台式机出租,笔记本电脑租赁,苹果电脑出租,北京笔记本出租,电脑免押金租赁" />
+		<meta name="description" content="快租365是一站式电脑租赁和IT服务电商平台,主要为全国企业用户提供笔记本电脑租赁,台式机租赁,苹果电脑租赁以及各类办公用IT设备,打印机,复印机租赁等,同时提供免押金,随借随还,最低60元可租电脑服务" />
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
+		<script type="text/html" id="shopping-page">
+            		<% for(var i=0;i<data.length;i++){%>
+            			<tr class="goods_box">
+                     	<td style="margin-left:22px"><input style="margin-left:22px" name="cart_ids" data-id="11076" type="checkbox" data-price="700"></td>
+                     	<td style="width: 20%;">
+                        	 <div class="detail">
+                            	 <div class="img" class="float:left;"><a href="/home/goods/detail/goods_id/237.html"><img src= "<%= data[i].imgsrc %>"  width="110"></a></div>
+                             	<div class="txt" style="padding:10px 0 0 120px;">
+                                 	<div class="cart-h3" style="height:30px;line-height:30px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;">
+                                     <a href="/home/goods/detail/goods_id/237.html" target="_blank"> <%= data[i].pname %></a>
+                                 </div>
+                                 <div class="cart-h3" style="height:30px;line-height:30px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;">
+                                                                          &nbsp;&nbsp;
+                                  <%= data[i].pdetail %>  </div>
+                                 <div class="cart-h2"><span>普通租赁</span>                                                                                                               <!--起租时间:2017-09-24 &nbsp; 租期：12-->
+                                 </div>
+                             </div>
+                         </div>
+                     </td>
+                     <td class="big"><%= data[i].pprice %> </td>
+                     <td><%= data[i].pya %></td>
+                     <td class="rent_num_box">
+                         <div class="num_box">
+                             <i class="select_num pull-left pull_width">-</i>
+                             <input type="text" class="rent_num pull_flex" value="<%= data[i].pnumber %> " style="text-indent:0;">
+                             <i class="select_num pull-right pull_width">+</i>
+                         </div>
+                     </td>
+                    <td><%= data[i].pday %></td>
+                    <td><%= data[i].pmonth%></td>
+                     <td class="big subtotal"><span class="good_all_price" style="color: #f00 !important;"><%= parseInt(data[i].pnumber * data[i].pprice) %></span></td>
+                     <td class="big"><a class="delete" data-id="11076" data-price="700">删除</a></td><!--之前是700小计金额-->
+                 </tr>           
+                
+            <%}%>
+</script>
+	</head>
+	<body> 
+		<div id="comment"></div>
+		<!--***************shopping**********************-->
+		<div class="shopping-center">
+			<p><a href="main.html">首页</a>&nbsp;&gt;&nbsp;<a class="shopping-text" href="">购物车</a></p>
+			<table>
+				<thead>
+					<tr>
+	                    <td width="50">选择</td>
+	                    <td width="400">商品信息</td>
+	                    <td width="80">租金元/月</td>
+	                    <td width="100">押金</td>
+	                    <td width="100">数量</td>
+	                    <td width="100">起租日期</td>
+	                    <td width="80">租期（月）</td>
+	                    <td width="100">小计(元)</td>
+	                    <td width="80">操作</td>
+	               </tr>
+               </thead>
+               <tbody></tbody>
+			</table>
+			<ul></ul>
+			<p class="none-shopping">暂无记录！</p>
+			
+		</div>
+		<div class="remove-shopping">
+			<p class="pull-left allcheckSelect">
+				<input type="checkbox" checked="checked"/>
+				<a class="allselect">全选</a>
+				<a class="removepro">删除选中商品</a>
+				<a class="removecart">清空购物车</a>
+			</p>
+			<p>
+				<p class="page pull-right">
+					已选择商品 
+					<span class="all_num">0</span>
+					 件&nbsp;&nbsp;&nbsp;&nbsp;应付总金额：￥
+					 <span class="all_price" style="color: #f00 !important;">0.00</span>
+					 <a href="" class="sumbtn">去结算</a>
+				</p>
+			</p>
+		</div>
+		<ul class="background-img">
+			<li><i class="case1"></i><p>企业免押金</p></li>
+			<li><i class="case2"></i><p>企业免押金</p></li>
+			<li><i class="case3"></i><p>企业免押金</p></li>
+			<li><i class="case4"></i><p>企业免押金</p></li>
+		</ul>
+		<div id="footer">
+			
+		</div>
+	</body>
+		<script data-main = "../js/constant/shopping.js" src="../js/requireJs/require.js"></script>	
+</html>

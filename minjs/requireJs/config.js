@@ -1,0 +1,1 @@
+"use strict";requirejs.config({paths:{topbar:"http://localhost:8080/js/constant/main/top-bar",jquery:"http://localhost:8080/js/jquery/jquery-1.11.3",banner:"http://localhost:8080/js/constant/main/banner",bootstrap:"http://localhost:8080/js/bootstrap/bootstrap",npm:"http://localhost:8080/js/bootstrap/npm"}});

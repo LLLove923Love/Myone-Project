@@ -1,0 +1,913 @@
+body, p, h1, h2, h3, h4, h5, h6, ul, dl, dd, td, input, fieldset, textarea, option {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+a, input {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 100;
+}
+
+i, em {
+  font-style: normal;
+}
+
+body {
+  font: 12px " Microsoft YaHei";
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.f1 {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.top-content-left a:hover, .top-content-right li a:hover, .logo-Form p a:hover, .nav .nav-content .mainsort .nav-selector li a:hover, .nav .nav-content > ul > li a:hover, .nav .nav-content p a:hover, .fixed-right .fixed-div .sliter-two a:hover, .footer-bottom a:hover {
+  color: #8FC31F;
+  text-decoration: none;
+}
+
+.logo-Form .tex, .logo-Form .btn {
+  float: left;
+  border: 1px solid #e2e2e2;
+}
+
+::-webkit-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-moz-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-ms-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, dl, dd, td, input, fieldset, textarea, option {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+a, input {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 100;
+}
+
+i, em {
+  font-style: normal;
+}
+
+body {
+  font: 12px " Microsoft YaHei";
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.f1 {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.top-content-left a:hover, .top-content-right li a:hover, .logo-Form p a:hover, .nav .nav-content .mainsort .nav-selector li a:hover, .nav .nav-content > ul > li a:hover, .nav .nav-content p a:hover, .fixed-right .fixed-div .sliter-two a:hover, .footer-bottom a:hover {
+  color: #8FC31F;
+  text-decoration: none;
+}
+
+.logo-Form .tex, .logo-Form .btn {
+  float: left;
+  border: 1px solid #e2e2e2;
+}
+
+::-webkit-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-moz-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-ms-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}
+
+/*-----------------------top-----------------------------*/
+#comment {
+  background: #fff;
+}
+
+.top-bar {
+  height: 34px;
+  background: #f7f7f7;
+}
+
+.top-content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  line-height: 34px;
+}
+
+.top-content-left {
+  float: left;
+}
+.top-content-left a {
+  color: #352b23;
+}
+.top-content-left .loginq {
+  padding-right: 10px;
+}
+
+.top-content-right {
+  float: right;
+}
+.top-content-right li {
+  float: left;
+  height: 16px;
+}
+.top-content-right li a {
+  color: #666666;
+  border-right: 1px solid #ccc;
+  padding: 0 11px;
+}
+.top-content-right .nomargin {
+  border: none;
+  padding-right: 0;
+}
+.top-content-right .nomargin:hover {
+  color: #666666;
+}
+.top-content-right .nomargin span {
+  color: #8FC31F;
+}
+
+/*-----------------------logo-----------------------------*/
+.logo {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.logo-Img {
+  width: 384px;
+  height: 56px;
+  margin: 22px 0 0 30px;
+  float: left;
+  background: url(../img/logo/logo_full.png) no-repeat;
+}
+
+.logo-Form {
+  float: right;
+  margin-top: 25px;
+}
+.logo-Form .tex {
+  width: 310px;
+  height: 36px;
+  padding: 8px 12px;
+  border-right: none;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+.logo-Form .tex:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}
+.logo-Form .btn {
+  width: 60px;
+  height: 36px;
+  background: #f1f1f1;
+  border-radius: 0;
+}
+.logo-Form .btn:hover {
+  background: #d8d8d8;
+  border: 1px solid #adadad;
+}
+.logo-Form p {
+  color: #666666;
+  padding-top: 5px;
+  clear: both;
+  margin: 0;
+}
+.logo-Form p a {
+  color: #999999;
+  padding-right: 5px;
+}
+
+/*--------------------------nav---------------------------------*/
+.nav {
+  width: 100%;
+  height: 38px;
+  border-bottom: 2px solid #8FC31F;
+}
+.nav .nav-content {
+  width: 1200px;
+  margin: 0 auto;
+  height: 36px;
+}
+.nav .nav-content .mainsort {
+  position: relative;
+  float: left;
+  width: 205px;
+  height: 38px;
+  background: #8FC31F;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 10px;
+  line-height: 38px;
+}
+.nav .nav-content .mainsort span {
+  top: 2px;
+}
+.nav .nav-content .mainsort .nav-selector {
+  z-index: 997;
+  height: 460px;
+  background: #767068;
+  text-align: left;
+  position: absolute;
+  top: 40;
+  left: 0;
+  line-height: 0;
+}
+.nav .nav-content .mainsort .nav-selector h5 {
+  height: 16px;
+  line-height: 16px;
+  margin: 10px 0;
+}
+.nav .nav-content .mainsort .nav-selector li {
+  border-bottom: 1px dashed #87827a;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+.nav .nav-content .mainsort .nav-selector li:hover {
+  background: #5a524a;
+}
+.nav .nav-content .mainsort .nav-selector li span {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  transition: transform 0.5s;
+}
+.nav .nav-content .mainsort .nav-selector li a {
+  transition: 0.5s;
+  display: inline-block;
+  line-height: 20px;
+  color: #eeecec;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.nav .nav-content .mainsort .nav-selector .noborder {
+  border-bottom: 0;
+}
+.nav .nav-content > ul {
+  margin: 0;
+}
+.nav .nav-content > ul .usually a {
+  color: #8FC31F;
+}
+.nav .nav-content > ul > li {
+  font-size: 16px;
+  float: left;
+  line-height: 36px;
+  position: relative;
+  margin-left: 2px;
+}
+.nav .nav-content > ul > li a {
+  color: #666666;
+  padding: 7px 15px;
+}
+.nav .nav-content img {
+  position: absolute;
+  top: -8px;
+  left: 75px;
+}
+.nav .nav-content p {
+  float: right;
+  line-height: 36px;
+  margin: 0;
+}
+.nav .nav-content p a {
+  font-size: 16px;
+  color: #666666;
+}
+.nav .nav-content p a span {
+  top: 3px;
+}
+
+/*--------------------------fixedDiv---------------------------------*/
+.fixed-right {
+  z-index: 998;
+  width: 48px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  background: #162142;
+  margin-top: -125px;
+}
+.fixed-right ul {
+  margin: 0;
+  padding: 0;
+}
+.fixed-right .fixed-div {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 34px;
+  margin: 8px 0 16px 0;
+  position: relative;
+}
+.fixed-right .fixed-div:hover {
+  background-color: #8FC31F;
+  transition: background-color 0.5s ease-in;
+}
+.fixed-right .fixed-div .div-two {
+  height: 34px;
+}
+.fixed-right .fixed-div .div-two .kefu-icon {
+  margin-top: 5px;
+  display: inline-block;
+  width: 22px;
+  height: 25px;
+  background: url(../img/logo/right_icon.png) no-repeat 0px 3px;
+}
+.fixed-right .fixed-div .kz-num-pos {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  background: #ed2441;
+}
+.fixed-right .fixed-div .sliter-one a {
+  z-index: -999;
+  display: inline-block;
+  width: 0px;
+  height: 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 14px;
+  background: #8FC31F;
+  text-decoration: none;
+}
+.fixed-right .fixed-div .sliter-two {
+  background: url(../img/logo/kefu_icon.png) no-repeat;
+  position: absolute;
+  right: 55px;
+  top: 5px;
+  width: 116px;
+  height: 64px;
+  padding: 12px 0 0 15px;
+  display: none;
+}
+.fixed-right .fixed-div .sliter-two a {
+  display: block;
+  font-size: 12px;
+  color: #333333;
+  line-height: 24px;
+  text-align: left;
+}
+.fixed-right .fixed-div .sliter-two a span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #8FC31F url(../img/logo/right_icon.png) no-repeat 1px 1px;
+  background-size: 16px 32px;
+  vertical-align: middle;
+}
+.fixed-right .fixed-div .sliter-two a .icon2 {
+  background: #8FC31F url(../img/logo/right_icon.png) no-repeat 1px -15px;
+  background-size: 16px 32px;
+}
+.fixed-right .fixed-div .sliter-three {
+  position: absolute;
+  top: -8px;
+  right: 55px;
+  padding: 0;
+  display: none;
+  background-image: none;
+  width: 157px;
+  height: 163px;
+}
+
+/*--------------------------footer--------------------------------*/
+.flooter {
+  background: #fff;
+  height: 327px;
+}
+
+.flooter-all {
+  width: 1200px;
+  height: 327px;
+  margin: 0 auto;
+  clear: both;
+}
+.flooter-all .add-line {
+  height: 110px;
+  padding: 32px 0;
+}
+.flooter-all .add-line li {
+  width: 300px;
+  height: 45px;
+  border-right: 1px solid #eeeeee;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  line-height: 46px;
+  white-space: nowrap;
+}
+.flooter-all .add-line li span {
+  margin-right: 10px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
+.flooter-all .add-line .noborder-footer {
+  border-right: 0;
+}
+
+.footer-center {
+  background: #fff;
+  clear: both;
+  border-top: 1px solid #ddd;
+  height: 217px;
+  padding: 16px 0;
+}
+.footer-center .footer-cleft {
+  width: 580px;
+  height: 184px;
+  float: left;
+}
+.footer-center .footer-cleft li {
+  float: left;
+  width: 144px;
+  height: 185px;
+  padding: 10px 15px;
+}
+.footer-center .footer-cleft li h5 {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.footer-center .footer-cleft li a {
+  display: block;
+  line-height: 26px;
+}
+.footer-center .footer-ccenter {
+  background: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 346px;
+  height: 185px;
+  padding-bottom: 25px;
+  float: left;
+}
+.footer-center .footer-ccenter img {
+  width: 128px;
+  height: 128px;
+  float: left;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  margin: 30px 20px 0 35px;
+}
+.footer-center .footer-ccenter p {
+  padding-top: 40px;
+  color: #abb2ba;
+  line-height: 34px;
+}
+.footer-center .footer-cbottom {
+  position: relative;
+  float: left;
+}
+.footer-center .footer-cbottom .phone {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  background: none;
+  font-size: 42px;
+  color: #8FC31F;
+  transform: rotate(70deg);
+}
+.footer-center .footer-cbottom h2 {
+  padding-left: 80px;
+  font-size: 28px;
+  color: #8FC31F;
+  margin: 30px 0 10px 0;
+}
+.footer-center .footer-cbottom p {
+  margin-left: 80px;
+  padding: 5px 0 15px 0;
+  color: #abb2ba;
+}
+.footer-center .footer-cbottom button {
+  margin-left: 80px;
+  background: #8FC31F;
+  border-radius: 3px;
+  width: 192px;
+  height: 46px;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-center .footer-cbottom button:hover {
+  background: #6F9718;
+}
+.footer-center .footer-cbottom button span {
+  margin-right: 10px;
+}
+
+.bottom-bar {
+  clear: both;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.footer-bottom {
+  height: 126px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-bottom p {
+  padding: 15px 0 5px 0;
+  height: 30px;
+  color: #999999;
+  font-size: 14px;
+  color: #333333;
+}
+.footer-bottom a {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #999999;
+}
+.footer-bottom .bot {
+  padding-left: 24px;
+  line-height: 28px;
+  color: #999999;
+  float: left;
+  width: 700px;
+  font-size: 14px;
+}
+.footer-bottom img {
+  float: left;
+  margin-right: 20px;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.top-bar-color {
+  background: #f2f2f2;
+}
+
+.login {
+  background: #fff;
+  padding: 10px 30px 0;
+  width: 375px;
+  height: 219px;
+}
+
+.logo-body {
+  background: #fff;
+  height: 120px;
+}
+.logo-body .logo-body-con {
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo-body .logo-body-con h2 {
+  float: left;
+  margin: 32px 30px 0 32px;
+}
+.logo-body .logo-body-con span {
+  font-size: 18px;
+  color: #8FC31F;
+  padding: 24px 15px 10px 25px;
+  border-left: 1px solid #e2e2e2;
+  display: inline-block;
+  margin-top: 32px;
+}
+.logo-body .logo-body-con p {
+  float: right;
+  margin-top: 56px;
+  font-size: 16px;
+}
+.logo-body .logo-body-con p a {
+  color: #8FC31F;
+}
+
+/*---------------------login--------------------*/
+.login {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+.login .login-left {
+  float: left;
+  width: 680px;
+  height: 465px;
+  margin-top: 85px;
+  background: url(../img/login/login1.jpg) no-repeat;
+}
+
+.login-right {
+  float: right;
+  width: 415px;
+  height: 399px;
+  background: #fff;
+  padding: 0 40px 40px 40px;
+  margin: 90px 45px 0 0;
+  text-align: center;
+}
+.login-right h1 {
+  margin: 36px 0 26px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.login-right p {
+  left: 340px;
+  height: 65px;
+  text-align: left;
+  line-height: 64px;
+}
+.login-right p a {
+  float: right;
+}
+.login-right .button1 {
+  width: 340px;
+  height: 42px;
+  background: #8FC31F;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  line-height: 42px;
+  position: relative;
+}
+.login-right .button1:hover {
+  background: #6F9718;
+}
+.login-right .button1 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login-right .btn2 {
+  background: #f1f1f1;
+  border: 1px solid #cccccc;
+  color: #333;
+}
+.login-right .btn2:hover {
+  background: #d8d8d8;
+}
+.login-right .hintfix {
+  position: fixed;
+  top: 40%;
+  padding: 10px 5px;
+}
+
+.login-Form {
+  width: 340px;
+  height: 44px;
+  margin-top: 16px;
+}
+.login-Form span {
+  float: left;
+  width: 51px;
+  height: 44px;
+  font-size: 18px;
+  color: #555555;
+  background: #eee;
+  line-height: 44px;
+  border: 1px solid #e2e2e2;
+  border-right: none;
+  top: 0px;
+}
+.login-Form input {
+  float: left;
+  width: 287px;
+  height: 44px;
+  padding: 8px 16px;
+  border: 1px solid #e2e2e2;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+.login-Form input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}
+
+/*---------------------reister--------------------*/
+.register {
+  width: 1200px;
+  height: 555px;
+  background: #fff;
+  margin: 32px auto;
+}
+.register .register-right {
+  float: right;
+  width: 580px;
+  height: 511px;
+  margin: 50px 0 0 0;
+  background: url(../img/login/register.jpg) no-repeat;
+}
+.register .register-left {
+  padding-top: 44px;
+  float: left;
+}
+.register .register-left label {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  width: 600px;
+  font-weight: normal;
+  position: relative;
+}
+.register .register-left label span {
+  color: #f5675d;
+  display: inline-block;
+}
+.register .register-left label input {
+  width: 337px;
+  height: 38px;
+  padding: 8px 12px;
+  margin: 0 110px 0 15px;
+  border: 1px solid #e2e2e2;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+.register .register-left label input:focus {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.register .register-left label .eye {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  right: 112px;
+  background: url(../img/login/password_icon2.png) no-repeat;
+}
+.register .register-left label .inp-two {
+  width: 215px;
+  margin-right: 0;
+}
+.register .register-left label .img-div {
+  width: 117px;
+  margin-left: 5px;
+  height: 38px;
+  float: right;
+  margin-right: 110px;
+}
+.register .register-left label .img-div img {
+  height: 38px;
+  width: 117px;
+}
+.register .register-left label .text-div {
+  background: #f1f1f1;
+  border: 1px solid #cccccc;
+  text-align: center;
+  line-height: 38px;
+}
+.register .register-left label .text-div:hover {
+  background: #d8d8d8;
+}
+.register .register-left label .button {
+  color: #fff;
+  background-color: #8FC31F;
+  border: none;
+  width: 336px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  float: right;
+  margin-right: 111px;
+}
+.register .register-left label .button:hover {
+  border-color: #3e550e;
+  background-color: #587813;
+}
+.register .register-left .inp-check {
+  height: 20px;
+  line-height: 20px;
+}
+.register .register-left .inp-check input {
+  font-size: 12px;
+  height: 13px;
+  width: 13px;
+  border: none;
+  margin-right: 10px;
+}
+.register .register-left .inp-check a {
+  color: #8FC31F;
+  margin-right: 160px;
+}
+
+.hint {
+  background: #626262;
+  width: 162px;
+  height: 48px;
+  border-radius: 3px;
+  padding: 12px 25px;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  text-align: center;
+  line-height: 24px;
+  color: #f1f1f1;
+  font-size: 12px;
+  display: none;
+}

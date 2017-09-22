@@ -1,0 +1,1 @@
+"use strict";define(["jquery","topbar"],function(e){return e("#banner").load("comment.html"),0});

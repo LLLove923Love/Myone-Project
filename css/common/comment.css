@@ -1,0 +1,81 @@
+body, p, h1, h2, h3, h4, h5, h6, ul, dl, dd, td, input, fieldset, textarea, option {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+a, input {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 100;
+}
+
+i, em {
+  font-style: normal;
+}
+
+body {
+  font: 12px " Microsoft YaHei";
+}
+
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.f1 {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+::-webkit-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-moz-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+::-ms-input-placeholder {
+  color: #a5a5a5;
+  font-size: 12px;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+}
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075);
+}

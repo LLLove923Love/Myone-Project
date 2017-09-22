@@ -1,0 +1,134 @@
+@import "common/comment";
+@import "common/top-footer";
+@import "main";
+ body{
+        background: #f7f7f7;
+    }
+.search-center{
+    overflow: hidden;
+    .pro-img{
+        display: block;
+        width:1200px;
+        margin:0 auto;
+        height:181px;
+    }
+    .pro-select-start{
+        background: #fff;
+        width:1200px;
+        margin: 0 auto;
+        height:390px;
+        padding:20px;
+        font-size: 14px;
+    }
+    dt{
+        width:70px;
+        height:46px;
+        float:left;
+        text-align: right;
+        line-height: 46px;
+    }
+    .active{
+         color:$color;
+    }
+    dd{
+        float:left;
+        padding:0 18px;
+        line-height: 46px;
+    }
+}
+.slider-product{
+    width:1200px;
+    margin: 0 auto;
+    
+}
+.green{
+    padding:0 10px;
+}
+.list-group-item{
+    border:0;
+    width:290px;
+    height:309px;
+    margin:0 10px 10px 0;
+    float:left;
+    &:hover{
+        border:none;
+        box-shadow: 0 4px 10px 5px #ddd;
+        transform: translateY(-2px);
+    }
+    .img{
+         width:240px;
+         height:192px;
+         text-align: center;
+         img{
+             width:240px;
+             height:192px;
+             display: block;
+             margin: 0 20px;
+            }
+            
+            
+    }
+    .capition{
+        p{
+               width:261px;
+           a{
+                display: block;
+                width:261px;
+          
+             overflow: hidden;
+             text-overflow: ellipsis;
+             white-space: nowrap;
+                }
+        }
+    }
+    
+}
+.sort-pro{
+    width:1200px;
+    height:50px;
+    margin: 0 auto;
+    li{
+        float:left;
+        padding:0 20px;
+        height:50px;
+        font-size: 14px;
+        line-height: 50px;
+    }
+}
+.advantage{
+    background-color: #8fc31f;
+    padding-top: 8px;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    display: block;
+    top: 10px;
+    z-index: 49;
+    right: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+}
+.text-center{
+    padding:24px 0;
+    margin:10px 0;
+}
+.text-danger {
+    text-align: center;
+    margin:15px 0;
+    color:red;
+}
+.caption{
+    p{
+            font-size: 14px;
+            line-height: 24px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding-top: 0;
+            margin: 0;
+    }
+}

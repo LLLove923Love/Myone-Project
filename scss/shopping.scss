@@ -1,0 +1,179 @@
+@import "common/comment";
+@import "common/top-footer";
+ body{
+        background: #f7f7f7;
+    }
+.shopping-center{
+    width: 1200px;
+    margin: 0 auto;
+   
+    p{
+        font-size: 14px;
+        padding-left:10px;
+        margin-bottom:10px;
+        height:55px;
+        line-height: 54px;
+      
+        .shopping-text{
+            color:$color;
+        }
+        
+    }
+    table{
+        width: 1200px;
+        border: 1px solid #ccc;
+        td{
+                text-align: center;
+            } 
+        thead{
+            width:1200px;
+            background: #ececec;
+            height:44px;
+            line-height: 44px;
+            .one-td{
+                width:58px;
+            }
+        }
+        tbody{
+            width:1200px;
+        }
+    }
+    .none-shopping{
+            text-align: center;
+            line-height: 44px;
+            border: 1px solid #ddd;
+            border-top:0;
+            background: #fff;
+            height: 44px;
+    }
+}
+.remove-shopping{
+        width:1200px;
+        margin:20px auto;
+        border: 1px solid #ddd;
+        height: 60px;
+        line-height: 60px;
+        background-color: #fff;
+        font-size: 14px;
+        p{
+                padding-left: 20px;
+                float: left;
+                a{
+                    margin-left: 15px;
+                    &:hover{
+                        color: #8FC31F;
+                        text-decoration: none;
+                    }
+                }
+                .removecart{
+                    color: #999;
+                }
+        }
+        .sumbtn{
+                display: inline-block;
+                height: 58px;
+                background: #d9d9d9;
+                padding: 0 30px;
+                font-size: 16px;
+                color: #fff;
+                margin-left: 20px;
+                width: 108px;
+        }
+}
+.background-img{
+    width:1200px;
+    margin:10px auto;
+    height:107px;
+    overflow: hidden;
+    li{
+        float:left;
+        width:300px;
+        height:107px;
+        background: rgb(249, 249, 249);
+        text-align: center;
+        padding-top:10px;
+        p{
+        font-size: 18px;
+        }
+    }
+    i{
+        display: inline-block;
+        width:60px;
+        height:60px;
+        background: url(../img/shopping/introspective1.png) no-repeat top center;
+    }
+    .case2{
+        background: url(../img/shopping/introspective2.png) no-repeat top center;
+        
+    }
+    .case3{
+        background: url(../img/shopping/introspective3.png) no-repeat top center;
+        
+    }
+    .case4{
+        background: url(../img/shopping/introspective4.png) no-repeat top center;
+        
+    }
+    
+}
+.goods_box{
+    font-size: 14px;
+    background:#fff;
+    height:116px;
+    .img{
+        float:left;
+    }
+    .cart-h3{
+        
+        text-align: left;
+        a{
+            color:#999;
+            &:hover{
+                color:$color;
+                text-decoration: none;
+            }
+        }
+     }
+        .num_box{
+                height: 24px;
+                border: 1px solid #8FC31F;
+                width: 74px;
+                margin: 0 auto;
+            i{
+                width: 22px;
+                height: 22px;
+                background-color: #8FC31F;
+                display: inline-block;
+                color: #fff;
+                font-style: normal;
+                cursor: pointer;
+                float: left;
+                line-height: 22px;
+        }
+        input{
+            width:26px;
+            height:20px;
+            float: left;
+            border: none;
+            text-align: center;
+        }
+   }
+   .delete{
+        color: #999;
+        font-size: 16px;
+       &:hover{
+         color: #ad0015;
+         text-decoration: none;
+         }
+   }
+
+    .cart-h2{
+        background: #85c12e;
+        color: #fff;
+        padding: 2px 5px;
+        margin-right: 5px;
+        width:66px;
+        height:23px;
+        line-height: 24px;
+    }
+}
